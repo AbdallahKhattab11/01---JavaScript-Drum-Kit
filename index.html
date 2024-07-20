@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./favicon/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./style.css">
+  <title>Js Drum Kit</title>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="key a" data-sound="a"><p>a</p> <span>clap</span></div>
+    <div class="key s" data-sound="s"><p>s</p> <span>hihat</span></div>
+    <div class="key d" data-sound="d"><p>d</p> <span>kick</span></div>
+    <div class="key f" data-sound="f"><p>f</p> <span>openhat</span></div>
+    <div class="key g" data-sound="g"><p>g</p> <span>boom</span></div>
+    <div class="key h" data-sound="h"><p>h</p> <span>ride</span></div>
+    <div class="key j" data-sound="j"><p>j</p> <span>snare</span></div>
+    <div class="key k" data-sound="k"><p>k</p> <span>tom</span></div>
+    <div class="key l" data-sound="l"><p>l</p> <span>tink</span></div>
+  </div>
+
+  <div class="sounds-container">
+    <audio src="./sounds/clap.wav"    data-sound="a" class="a"></audio>
+    <audio src="./sounds/hihat.wav"   data-sound="s" class="s"></audio>
+    <audio src="./sounds/kick.wav"    data-sound="d" class="d"></audio>
+    <audio src="./sounds/openhat.wav" data-sound="f" class="f"></audio>
+    <audio src="./sounds/boom.wav"    data-sound="g" class="g"></audio>
+    <audio src="./sounds/ride.wav"    data-sound="h" class="h"></audio>
+    <audio src="./sounds/snare.wav"   data-sound="j" class="j"></audio>
+    <audio src="./sounds/tom.wav"     data-sound="k" class="k"></audio>
+    <audio src="./sounds/tink.wav"    data-sound="l" class="l"></audio>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
+
